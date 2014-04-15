@@ -279,6 +279,22 @@
             isAbstract="false"
             concurrency="Sequential"
             isQuery="false" />
+          <operation
+            Id="5f027564-1bcb-45b4-bb7d-2017eb8a3a46"
+            name="DeserializeObjectToForm"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="2f59932e-814f-41ad-b5a3-d806cfd93ebc"
+            name="SerializeObjectFromForm"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -1288,6 +1304,22 @@
           <operation
             Id="e9044804-c8d5-4f5f-a349-47070b0bf019"
             name="RemoveFieldByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="556edfa4-72fe-45d1-8575-5d00ab92a0ca"
+            name="DeserializeObjectToForm"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f1d8a728-fe34-47b7-ae12-71d7b3b21324"
+            name="SerializeObjectFromForm"
             isLeaf="false"
             isStatic="false"
             isAbstract="true"

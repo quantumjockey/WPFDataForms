@@ -2,21 +2,21 @@
 <logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FormViewModel.UMLDiagram">
   <logicalClassDesignerModelMoniker Id="ad5a93fe-60f5-4d7e-ab7f-5d315e60a017" />
   <nestedChildShapes>
-    <interfaceShape Id="a98e3d62-71ad-4619-bf92-4ecd1a009fa5" absoluteBounds="2.25, 2.5, 2.875, 3.8130033596356707" hideQualifiedName="false" increaseHeight="0.18800345897674564" customColor="207, 223, 191">
+    <interfaceShape Id="a98e3d62-71ad-4619-bf92-4ecd1a009fa5" absoluteBounds="2.25, 2.5, 2.875, 4.133315849701563" hideQualifiedName="false" increaseHeight="0.18800345897674564" customColor="207, 223, 191">
       <interfaceMoniker Id="b3c452de-d17b-42d5-9339-1043dfba751a" LastKnownName="IForm" />
       <nestedChildShapes>
         <AttributeElementListCompartment Id="5f2de72d-cefd-4257-824d-744f86e83aa9" absoluteBounds="2.265, 3.0780034589767458, 2.8449999999999998, 0.52148435761531187" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="3ca47b0b-4a2b-4cb6-aa8a-58065f0e2685" absoluteBounds="2.265, 3.6094878165920576, 2.8449999999999998, 2.6035155430436134" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="3ca47b0b-4a2b-4cb6-aa8a-58065f0e2685" absoluteBounds="2.265, 3.6094878165920576, 2.8449999999999998, 2.9238280331095057" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </interfaceShape>
-    <classShape Id="d85e9fca-cb8b-4d2f-af13-da5bdeb5e56b" absoluteBounds="6.125, 2.5, 3.125, 3.7851561456918716" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="d85e9fca-cb8b-4d2f-af13-da5bdeb5e56b" absoluteBounds="6.125, 2.5, 3.125, 4.1054686357577639" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
       <classMoniker Id="79d8d1df-1f8d-4609-b50d-8fec7245fd92" LastKnownName="FormViewModel" />
       <nestedChildShapes>
         <AttributeElementListCompartment Id="a2288f89-1592-4964-a169-21ef79a82fce" absoluteBounds="6.14, 2.89, 3.0949999999999998, 0.52148435761531187" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="3692b877-d649-4551-ba78-c8c336d23a2d" absoluteBounds="6.14, 3.421484357615312, 3.0949999999999998, 2.7636717880765596" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="3692b877-d649-4551-ba78-c8c336d23a2d" absoluteBounds="6.14, 3.421484357615312, 3.0949999999999998, 3.0839842781424522" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <realizationConnector edgePoints="[(6.125 : 4.39257807284594); (5.125 : 4.39257807284594)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" showAsLollipop="false">
+    <realizationConnector edgePoints="[(6.125 : 4.55273431787888); (5.125 : 4.55273431787888)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" showAsLollipop="false">
       <interfaceRealizationMoniker Id="2eea165b-0072-490f-98d7-68f9483cf1a8" />
       <relativeChildShapes />
       <nodes>

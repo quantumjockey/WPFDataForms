@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Reflection;
 using WpfHelper.ViewModel;
 
 #endregion
@@ -93,6 +94,7 @@ namespace WPFDataForms.ViewModel
                     if (field.ID == fieldId)
                     {
                         fieldExists = true;
+                        break;
                     }
                 }
             }
@@ -131,7 +133,12 @@ namespace WPFDataForms.ViewModel
 
             foreach (IFormField field in Fields)
             {
-                content = (field.ID == fieldId) ? field.Content : null;
+                if (field.ID == fieldId)
+                {
+                    content = field.Content;
+                    break;
+                }
+                break;
             }
 
             return content;
@@ -172,7 +179,11 @@ namespace WPFDataForms.ViewModel
 
             foreach (IFormField field in Fields)
             {
-                index = (field.ID == fieldId) ? Fields.IndexOf(field) : -1;
+                if (field.ID == fieldId)
+                {
+                    index = Fields.IndexOf(field);
+                    break;
+                }
             }
 
             return index;
@@ -213,7 +224,11 @@ namespace WPFDataForms.ViewModel
 
             foreach (IFormField field in Fields)
             {
-                formField = (field.ID == fieldId) ? field : null;
+                if (field.ID == fieldId)
+                {
+                    formField = field;
+                    break;
+                }
             }
 
             return formField as IFormField;
@@ -255,6 +270,7 @@ namespace WPFDataForms.ViewModel
             foreach (IFormField field in Fields)
             {
                 value = (field.ID == fieldId) ? field.Value : null;
+                break;
             }
 
             return value;
@@ -400,6 +416,92 @@ namespace WPFDataForms.ViewModel
             }
 
             return resetSuccessful;
+        }
+
+        #endregion
+
+        ////////////////////////////////////////
+        #region Object-to-Form Serialization
+
+        /// <summary>
+        /// Populates the field contents of a form object by deserializing data from an object.
+        /// </summary>
+        /// <param name="_object">The object/type form data will be populated from.</param>
+        /// <returns>Whether or not deserialization succeeded.</returns>
+        /// <remarks>
+        /// This method is designed to match form field IDs to property names and vice-versa.
+        /// Be sure that the object type you are serializing form data to has properties that match the form IDs if 
+        /// you want a complete object to result.
+        /// </remarks>
+        public bool DeserializeObjectToForm(object _object)
+        {
+            bool success = false;
+
+            if (_object != null)
+            {
+                PropertyInfo[] properties = _object.GetType().GetProperties();
+
+                foreach (PropertyInfo property in properties)
+                {
+                    if (property.CanWrite && CheckIfFieldExists(property.Name))
+                    {
+                        GetFieldObjectByID(property.Name).Content = property.GetValue(_object, null);
+                    }
+                }
+
+                success = true;
+            }
+
+            return success;
+        }
+
+        /// <summary>
+        /// Serializes an object from form data.
+        /// </summary>
+        /// <param name="objectType">The object type the form is to be serialized to.</param>
+        /// <returns>A serialized object with properties and attributes assigned from the type argument.</returns>
+        /// <remarks>
+        /// This method is designed to match form field IDs to property names and vice-versa.
+        /// Be sure that the object type you are serializing form data to has properties that match the form IDs if 
+        /// you want a complete object to result.
+        /// </remarks>
+        public object SerializeObjectFromForm(Type objectType)
+        {
+            if (objectType == null)
+                throw new ArgumentException("Type argument cannot be null.");
+
+            object _dummyObject = Activator.CreateInstance(objectType);
+
+            PropertyInfo[] properties = objectType.GetProperties();
+
+            foreach (PropertyInfo property in properties)
+            {
+                if (property.CanWrite && CheckIfFieldExists(property.Name) && !(property.GetValue(_dummyObject, null) is System.Guid))
+                {
+                    if (property.GetValue(_dummyObject, null) is Double)
+                    {
+                        double resultDouble = 0.0;
+                        if (Double.TryParse(GetFieldObjectByID(property.Name).Content.ToString(), out resultDouble))
+                        {
+                            property.SetValue(_dummyObject, resultDouble, null);
+                        }
+                    }
+                    else if (property.GetValue(_dummyObject, null) is Int32)
+                    {
+                        int resultInt = 0;
+                        if (Int32.TryParse(GetFieldObjectByID(property.Name).Content.ToString(), out resultInt))
+                        {
+                            property.SetValue(_dummyObject, resultInt, null);
+                        }
+                    }
+                    else
+                    {
+                        property.SetValue(_dummyObject, GetFieldObjectByID(property.Name).Content, null);
+                    }
+                }
+            }
+
+            return _dummyObject;
         }
 
         #endregion

@@ -689,6 +689,12 @@
           <operation Id="eeb633e4-280d-471f-9c3f-5d3fa5d7e314" name="RemoveFieldByID" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="e9044804-c8d5-4f5f-a349-47070b0bf019" />
           </operation>
+          <operation Id="61bb3f66-7489-4d7b-a6bc-e580763cef58" name="DeserializeObjectToForm" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="556edfa4-72fe-45d1-8575-5d00ab92a0ca" />
+          </operation>
+          <operation Id="ed3d7be0-883b-44a7-b7e0-945b237292ac" name="SerializeObjectFromForm" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f1d8a728-fe34-47b7-ae12-71d7b3b21324" />
+          </operation>
         </ownedOperations>
       </Interface>
     </logicalClassDesignerModelHasTypes>
@@ -757,6 +763,12 @@
           </operation>
           <operation Id="17e555c5-9d66-4f89-ac9d-2a760105de53" name="RemoveFieldByID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="31eff81b-b94f-4626-b2c5-eeaa4fa6e253" />
+          </operation>
+          <operation Id="e0be23c5-cb30-459b-bed0-ddbf9db5cbcc" name="DeserializeObjectToForm" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5f027564-1bcb-45b4-bb7d-2017eb8a3a46" />
+          </operation>
+          <operation Id="0ccabe5a-912c-4194-acda-77b6f3e27937" name="SerializeObjectFromForm" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2f59932e-814f-41ad-b5a3-d806cfd93ebc" />
           </operation>
         </ownedOperationsInternal>
       </class>
