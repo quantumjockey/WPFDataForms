@@ -45,6 +45,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\FormFieldViewModel.cs" />
     <Compile Include="ViewModel\FormViewModel.cs" />
+    <Compile Include="ViewModel\FormViewModel.Search.cs" />
+    <Compile Include="ViewModel\FormViewModel.Serialization.cs" />
     <Compile Include="ViewModel\IForm.cs" />
     <Compile Include="ViewModel\IFormField.cs" />
   </ItemGroup>
