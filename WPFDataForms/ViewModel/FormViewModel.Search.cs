@@ -34,7 +34,6 @@ namespace WPFDataForms.ViewModel
                     content = field.Content;
                     break;
                 }
-                break;
             }
 
             return content;
@@ -149,48 +148,6 @@ namespace WPFDataForms.ViewModel
             }
 
             return objects;
-        }
-
-        /// <summary>
-        /// Retrieves the value of the form field specified by ID within the Fields collection.
-        /// </summary>
-        /// <param name="fieldId"></param>
-        /// <returns>The Value property of the form field object specified.</returns>
-        public object GetFieldValueByID(string fieldId)
-        {
-            object value = null;
-
-            if (fieldId == null)
-                throw new ArgumentException("Null fieldID argument passed.");
-
-            foreach (IFormField field in Fields)
-            {
-                value = (field.ID == fieldId) ? field.Value : null;
-                break;
-            }
-
-            return value;
-        }
-
-        /// <summary>
-        /// Retrieves the value(s) of the form field(s) specified by Type within the Fields collection.
-        /// </summary>
-        /// <param name="fieldType"></param>
-        /// <returns>A list containing the Value properties of objects matching the specified Type within the Fields collection.</returns>
-        public List<object> GetFieldValuesByType(Type fieldType)
-        {
-            List<object> values = new List<object>();
-
-            if (fieldType == null)
-                throw new ArgumentException("Null type argument passed.");
-
-            foreach (IFormField field in Fields)
-            {
-                if (field.GetType() == fieldType)
-                    values.Add(field.Value);
-            }
-
-            return values;
         }
 
         #endregion

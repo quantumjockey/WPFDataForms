@@ -72,32 +72,6 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="0b39de1d-143e-45a9-81e9-064434b9dbc1">
-      <profileInstance Id="c0fb18fa-0899-4d8b-9176-90727f2a34a2" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="786ca902-56d4-4d10-9d2a-c20b500005c9">
-      <profileInstance Id="6886ab54-3b10-4ecb-9543-75b015da0c6d" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="7f3f96fa-71b8-4efc-a74a-ab78b78df580">
-      <profileInstance Id="ea256df8-d5e6-45d8-8081-36fd4c18b93b" name="CSharpProfile">
-        <elementDefinition Id="bbb69064-0f46-4467-a5ea-5101ad59c565" />
-      </profileInstance>
-      <elementDefinition Id="749668f1-aa42-4f8c-a9b2-0b174cc86db7" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="300ddd6f-ba2d-4f4f-9015-57be36fda2c2">
-      <profileInstance Id="593192e9-82ea-4505-b3a8-450aca7732de" name="TextTemplateBindings">
-        <elementDefinition Id="5e08a6c9-f2ac-4887-9215-910a4ede3c3c" />
-      </profileInstance>
-      <elementDefinition Id="30fcf286-213c-4f6f-8a76-d1f0f58762c4" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <Interface Id="0589d132-9b31-4ab4-a426-d9c7159f7497" name="IFormField" isAbstract="false" isLeaf="false">
@@ -115,14 +89,11 @@
           <property Id="8eafb455-a184-4fa9-bf91-bf4a349b7152" name="Label" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="79569031-432c-42fe-a4e0-3d7a889abf06" />
           </property>
-          <property Id="fe972eb8-b0c0-4e6d-9eac-2d6c38d51087" name="Status" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ce6388de-8222-42a7-a319-cfedc36b491a" />
-          </property>
           <property Id="48858f04-47f6-418d-a943-5f1b770c0d57" name="ToolTip" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a3668928-e568-494c-b5df-0b62f9a48b72" />
           </property>
-          <property Id="879b2a56-1a45-47dd-9987-491d499edf34" name="Value" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="488ff7d3-d548-404c-b07d-5af44365d492" />
+          <property Id="2d9c83c7-25f9-4bb7-a729-3e54cdca098d" name="Expression" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6d7f062a-b369-4eae-a7e9-22f745fd41fd" />
           </property>
         </ownedAttributes>
         <ownedOperations>
@@ -145,9 +116,6 @@
           <property Id="78839760-49d9-4046-a864-0ebf3aec621d" name="Content" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="233a524a-d8cc-4828-96c5-34747fc1c4af" />
           </property>
-          <property Id="6c07f20a-8bf3-4c13-949b-833a02cabd0e" name="Value" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="6ec269b7-74e0-4fbc-a0ec-946f4beb30ab" />
-          </property>
           <property Id="b68d8dc0-0369-4dda-b48d-f154627914df" name="IsValid" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a4ee1760-5865-49e1-a73c-4875f2bb251c" />
           </property>
@@ -157,11 +125,11 @@
           <property Id="52ee0526-e8d3-432f-b9b1-0e153c06aedb" name="Label" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="7863b9a5-fb23-4cb1-992c-e8e13f12c4a9" />
           </property>
-          <property Id="37993f63-a933-4a28-a954-9cffcb53a260" name="Status" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="0256d975-607f-47aa-8974-fe5503420d86" />
-          </property>
           <property Id="96d1b992-d76c-4a51-8f91-0d5c987028c8" name="ToolTip" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="24e9ebb4-3387-4aa9-9672-3cd53692bfae" />
+          </property>
+          <property Id="bf8142d4-3e86-4ef0-a1f4-5fa69e40be80" name="Expression" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2fa5ee73-ec42-480c-9f65-1cd954692adc" />
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
@@ -174,5 +142,31 @@
   </packagedElements>
   <package Id="400b48b4-8d5a-4121-bcba-5208bb905221" name="WPFDataForms.Modeling">
     <elementDefinition Id="8643c692-3796-4f3c-86e2-4458d4218000" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0b39de1d-143e-45a9-81e9-064434b9dbc1">
+        <profileInstance Id="c0fb18fa-0899-4d8b-9176-90727f2a34a2" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="786ca902-56d4-4d10-9d2a-c20b500005c9">
+        <profileInstance Id="6886ab54-3b10-4ecb-9543-75b015da0c6d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7f3f96fa-71b8-4efc-a74a-ab78b78df580">
+        <profileInstance Id="ea256df8-d5e6-45d8-8081-36fd4c18b93b" name="CSharpProfile">
+          <elementDefinition Id="bbb69064-0f46-4467-a5ea-5101ad59c565" />
+        </profileInstance>
+        <elementDefinition Id="749668f1-aa42-4f8c-a9b2-0b174cc86db7" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="300ddd6f-ba2d-4f4f-9015-57be36fda2c2">
+        <profileInstance Id="593192e9-82ea-4505-b3a8-450aca7732de" name="TextTemplateBindings">
+          <elementDefinition Id="5e08a6c9-f2ac-4887-9215-910a4ede3c3c" />
+        </profileInstance>
+        <elementDefinition Id="30fcf286-213c-4f6f-8a76-d1f0f58762c4" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

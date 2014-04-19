@@ -79,7 +79,7 @@ namespace WPFDataForms.Test.ViewModel
         public void CheckIfFieldExists_Null_ReturnFalse()
         {
             FormViewModel form = new FormViewModel();
-            form.AddField(new TestFormField("Field1", "Ackbar", "It's A Trap!"));
+            form.AddField(new TestFormField("Field1", "Soccer", "The 'other' football."));
             Assert.IsFalse(form.CheckIfFieldExists(null));
         }
 
@@ -87,7 +87,7 @@ namespace WPFDataForms.Test.ViewModel
         public void CheckIfFieldExists_InvalidID_ReturnFalse()
         {
             FormViewModel form = new FormViewModel();
-            form.AddField(new TestFormField("Field1", "Ackbar", "It's A Trap!"));
+            form.AddField(new TestFormField("Field1", "Rugby", "Rough."));
             Assert.IsFalse(form.CheckIfFieldExists("Field2"));
         }
 
@@ -95,7 +95,7 @@ namespace WPFDataForms.Test.ViewModel
         public void CheckIfFieldExists_ValidID_ReturnTrue()
         {
             FormViewModel form = new FormViewModel();
-            form.AddField(new TestFormField("Field1", "Ackbar", "It's A Trap!"));
+            form.AddField(new TestFormField("Field1", "LaCrosse", "Actually quite fun."));
             Assert.IsTrue(form.CheckIfFieldExists("Field1"));
         }
 

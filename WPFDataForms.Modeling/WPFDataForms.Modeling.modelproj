@@ -22,12 +22,26 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="ViewModel\FormFieldScientificDataViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ViewModel\FormFieldScientificDataViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ViewModel\FormFieldScientificDataViewModel.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ViewModel\FormFieldViewModel.classdiagram">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ViewModel\FormFieldViewModel.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>ViewModel\FormFieldViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ViewModel\FormScientificDataViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ViewModel\FormScientificDataViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ViewModel\FormScientificDataViewModel.classdiagram</DependentUpon>
     </Content>
     <Content Include="ViewModel\FormViewModel.classdiagram">
       <SubType>Content</SubType>

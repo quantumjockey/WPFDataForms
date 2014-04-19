@@ -20,9 +20,7 @@ namespace WPFDataForms.ViewModel
         string ID { get; }
         bool IsValid { get; set; }
         string Label { get; set; }
-        string Status { get; set; }
         string ToolTip { get; set; }
-        object Value { get; set; }
 
         // Method Signatures
         void Reset();

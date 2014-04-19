@@ -258,12 +258,12 @@ namespace WPFDataForms.ViewModel
         ////////////////////////////////////////
         #region Event Handlers
 
-        void field_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        protected void field_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             this.IsComplete = CheckIfFieldsAreComplete();
         }
 
-        void Fields_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        protected void Fields_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
         {
             this.IsComplete = CheckIfFieldsAreComplete();
         }
@@ -276,7 +276,7 @@ namespace WPFDataForms.ViewModel
         /// <summary>
         /// Determines if all form fields contain valid input.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Whether or not the content of all fields within the form are valid.</returns>
         private bool CheckIfFieldsAreComplete()
         {
             bool fieldsAreValid = false;

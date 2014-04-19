@@ -54,6 +54,8 @@ namespace WPFDataForms.Test.ViewModel
         ////////////////////////////////////////
         #region Unit Tests (Methods)
 
+        // Constructor
+
         [TestMethod]
         public void Constructor_EmptyDefaults_ExpressionNotNull()
         {
@@ -116,6 +118,7 @@ namespace WPFDataForms.Test.ViewModel
             public TestFormField(string id, string label, string toolTip) : base(id, label, toolTip) { }
 
             public TestFormField(Predicate<object> expression, string id, string label, string toolTip) : base(expression, id, label, toolTip) { }
+
         }
 
         #endregion

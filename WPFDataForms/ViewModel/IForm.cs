@@ -29,8 +29,6 @@ namespace WPFDataForms.ViewModel
         List<int> GetFieldIndicesByType(Type fieldType);
         IFormField GetFieldObjectByID(string fieldId);
         List<IFormField> GetFieldObjectsByType(Type fieldType);
-        object GetFieldValueByID(string fieldId);
-        List<object> GetFieldValuesByType(Type fieldType);
         List<string> ListFieldIDs();
         bool RemoveField(IFormField field);
         bool RemoveFieldByID(string fieldId);
