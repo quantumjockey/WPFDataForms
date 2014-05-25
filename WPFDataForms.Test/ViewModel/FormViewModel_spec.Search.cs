@@ -11,9 +11,6 @@ using WPFDataForms.ViewModel;
 
 namespace WPFDataForms.Test.ViewModel
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WPFDataForms.ViewModel.FormViewModel" class.
-    /// </summary>
     /// <remarks>
     /// When separating large test classes into partials, you only need to specify the [Test Class] attribute 
     /// within one file. The compiler will yell at you if specify the attribute in all parts.

@@ -3,7 +3,6 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
 using WPFDataForms.ViewModel;
 
 #endregion
@@ -11,9 +10,6 @@ using WPFDataForms.ViewModel;
 
 namespace WPFDataForms.Test.ViewModel
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WPFDataForms.ViewModel.FormViewModel" class.
-    /// </summary>
     [TestClass]
     public partial class FormViewModel_spec
     {

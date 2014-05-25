@@ -10,9 +10,6 @@ using WPFDataForms.ViewModel;
 
 namespace WPFDataForms.Test.ViewModel
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WPFDataForms.ViewModel.FormFieldViewModel" class.
-    /// </summary>
     [TestClass]
     public class FormFieldViewModel_spec
     {

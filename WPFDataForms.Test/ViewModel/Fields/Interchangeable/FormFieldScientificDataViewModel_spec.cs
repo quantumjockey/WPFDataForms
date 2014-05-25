@@ -3,18 +3,13 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using WPFDataForms.ViewModel;
 using WPFDataForms.ViewModel.Fields.Interchangeable;
-using WPFDataForms.ViewModel.Forms;
 
 #endregion
 ///////////////////////////////////////
 
 namespace WPFDataForms.Test.ViewModel.Interchangeable
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WPFDataForms.ViewModel.Fields.Interchangeable.FormFieldScientificDataViewModel" class.
-    /// </summary>
     [TestClass]
     public class FormFieldScientificDataViewModelTest
     {
