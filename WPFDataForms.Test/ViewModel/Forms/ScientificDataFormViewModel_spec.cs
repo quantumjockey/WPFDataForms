@@ -17,12 +17,12 @@ namespace WPFDataForms.Test.ViewModel.Forms
     /// within one file. The compiler will yell at you if specify the attribute in all parts.
     /// </remarks>
     [TestClass]
-    public partial class ScientificDataFormViewModelTest
+    public partial class ScientificDataFormViewModel_spec
     {
         ////////////////////////////////////////
         #region Constructor (Auto-generated)
 
-        public ScientificDataFormViewModelTest()
+        public ScientificDataFormViewModel_spec()
         {
             //
             // TODO: Add constructor logic here

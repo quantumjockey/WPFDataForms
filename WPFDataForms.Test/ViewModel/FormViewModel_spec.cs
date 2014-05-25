@@ -15,12 +15,12 @@ namespace WPFDataForms.Test.ViewModel
     /// Unit tests addressing functionality within the "WPFDataForms.ViewModel.FormViewModel" class.
     /// </summary>
     [TestClass]
-    public partial class FormViewModelTest
+    public partial class FormViewModel_spec
     {
         ////////////////////////////////////////
         #region Constructor (Auto-generated)
 
-        public FormViewModelTest()
+        public FormViewModel_spec()
         {
             //
             // TODO: Add constructor logic here

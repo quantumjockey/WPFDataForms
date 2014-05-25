@@ -20,7 +20,7 @@ namespace WPFDataForms.Test.ViewModel.Forms
     /// When separating large test classes into partials, you only need to specify the [Test Class] attribute 
     /// within one file. The compiler will yell at you if specify the attribute in all parts.
     /// </remarks>
-    public partial class ScientificDataFormViewModelTest
+    public partial class ScientificDataFormViewModel_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Search Methods)

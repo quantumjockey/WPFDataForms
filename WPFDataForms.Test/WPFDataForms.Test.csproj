@@ -57,13 +57,13 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModel\FormFieldViewModelTest.cs" />
-    <Compile Include="ViewModel\Forms\ScientificDataFormViewModelTest.cs" />
-    <Compile Include="ViewModel\Forms\ScientificDataFormViewModelTest.Search.cs" />
-    <Compile Include="ViewModel\FormViewModelTest.cs" />
-    <Compile Include="ViewModel\FormViewModelTest.Search.cs" />
-    <Compile Include="ViewModel\FormViewModelTest.Serialization.cs" />
-    <Compile Include="ViewModel\Fields\Interchangeable\FormFieldScientificDataViewModelTest.cs">
+    <Compile Include="ViewModel\FormFieldViewModel_spec.cs" />
+    <Compile Include="ViewModel\Forms\ScientificDataFormViewModel_spec.cs" />
+    <Compile Include="ViewModel\Forms\ScientificDataFormViewModel_spec.Search.cs" />
+    <Compile Include="ViewModel\FormViewModel_spec.cs" />
+    <Compile Include="ViewModel\FormViewModel_spec.Search.cs" />
+    <Compile Include="ViewModel\FormViewModel_spec.Serialization.cs" />
+    <Compile Include="ViewModel\Fields\Interchangeable\FormFieldScientificDataViewModel_spec.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
