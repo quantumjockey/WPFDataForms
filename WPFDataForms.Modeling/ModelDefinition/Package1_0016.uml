@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams"
+  dslVersion="1.0.0.0"
+  Id="8bf3c064-df51-4177-89d2-4115bd7789ed"
+  name="Fields" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fdd4f2c0-ece4-4676-a82a-a644884a7a2c"
+        LastKnownName="Input"
+        LastKnownLocation="Package2_0016.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3ed253ee-06b7-4ed7-9073-e18d424fa965"
+        LastKnownName="Interchangeable"
+        LastKnownLocation="Package_0017.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2a19e338-a7d0-4e5b-af6f-516f54d0b1b3"
+        LastKnownName="Output"
+        LastKnownLocation="Package1_0017.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

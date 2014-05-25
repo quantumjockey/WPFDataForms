@@ -22,41 +22,58 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="Class Diagrams\ViewModel\FormFieldViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\ViewModel\FormFieldViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\ViewModel\FormFieldViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\ViewModel\FormScientificDataViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\ViewModel\FormScientificDataViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\ViewModel\FormScientificDataViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\ViewModel\FormViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\ViewModel\FormViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\ViewModel\FormViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\ViewModel\Interchangeable\FormFieldScientificDataViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\ViewModel\Interchangeable\FormFieldScientificDataViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\ViewModel\Interchangeable\FormFieldScientificDataViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0016.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0017.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_0016.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0016.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0017.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1713.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ViewModel\FormFieldScientificDataViewModel.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ViewModel\FormFieldScientificDataViewModel.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>ViewModel\FormFieldScientificDataViewModel.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="ViewModel\FormFieldViewModel.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ViewModel\FormFieldViewModel.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>ViewModel\FormFieldViewModel.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="ViewModel\FormScientificDataViewModel.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ViewModel\FormScientificDataViewModel.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>ViewModel\FormScientificDataViewModel.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="ViewModel\FormViewModel.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ViewModel\FormViewModel.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>ViewModel\FormViewModel.classdiagram</DependentUpon>
-    </Content>
+    <Folder Include="Class Diagrams\ViewModel\" />
+    <Folder Include="Class Diagrams\ViewModel\Interchangeable" />
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\WPFDataForms.Modeling.uml">
       <SubType>Content</SubType>
     </Content>
-    <Folder Include="ViewModel" />
+    <Folder Include="Class Diagrams" />
   </ItemGroup>
 </Project>

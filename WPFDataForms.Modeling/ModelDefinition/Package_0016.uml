@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams"
+  dslVersion="1.0.0.0"
+  Id="9a21c2a7-e6be-43c2-8bc4-4b38952e266b"
+  name="Forms" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="39bdf15a-8577-4da2-bba0-3417b391155c"
+        name="IScientificDataForm"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="4e26bbae-257c-440a-ac82-32dab9d3baf2"
+            name="GetFieldValueByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="5eebf94e-795f-48d5-8140-62b59900003f"
+            name="GetFieldValuesByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2e5e0c89-66cc-459d-9e2c-74267686dbcd"
+        name="ScientificDataFormViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a60e0cf3-c8ba-4066-9a5e-446179c02a46">
+            <interfaceMoniker
+              Id="39bdf15a-8577-4da2-bba0-3417b391155c"
+              LastKnownName="IScientificDataForm"
+              LastKnownLocation="Package_0016.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="95e05a63-8756-43ee-92d9-b6327cb4bd6e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="a03a3f60-4180-4721-b85e-2b478451f766"
+              LastKnownName="FormViewModel"
+              LastKnownLocation="Package_1713.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="9884b0e7-43ad-450e-96e1-1cebb5a24060"
+            name="Title"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="65f9a4cb-a106-423d-8f6f-5b876f54c783"
+            name="GetFieldValueByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="01b7a86f-8079-4259-8a95-f42a06bf6c26"
+            name="GetFieldValuesByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
