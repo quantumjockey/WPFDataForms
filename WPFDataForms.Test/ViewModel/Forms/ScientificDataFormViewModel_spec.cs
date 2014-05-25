@@ -19,40 +19,7 @@ namespace WPFDataForms.Test.ViewModel.Forms
     [TestClass]
     public partial class ScientificDataFormViewModel_spec
     {
-        ////////////////////////////////////////
-        #region Constructor (Auto-generated)
 
-        public ScientificDataFormViewModel_spec()
-        {
-            //
-            // TODO: Add constructor logic here
-            //
-        }
-
-        #endregion
-
-        ////////////////////////////////////////
-        #region TestContext Components (Auto-Generated)
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
-        #endregion
 
     }
 }
