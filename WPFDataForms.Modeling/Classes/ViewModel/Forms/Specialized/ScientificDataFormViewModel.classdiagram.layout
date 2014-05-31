@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ScientificDataFormViewModel">
+  <logicalClassDesignerModelMoniker Id="7656f972-8de6-4e52-9594-2826f4786d67" />
+  <nestedChildShapes>
+    <classShape Id="e338500b-ff9a-4fc1-b8e6-c2a2ca9a4dac" absoluteBounds="0.75, 2.625, 4.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="000f8978-a8dc-457f-a0d2-6ce1c8bace6c" LastKnownName="ScientificDataFormViewModel" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="da45fcc9-a037-4e40-8c41-f20e85593e59" absoluteBounds="0.765, 3.015, 4.4700000000000006, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="8519a915-7f76-44a9-abf8-6255e4a8acda" absoluteBounds="0.765, 3.2261718675494193, 4.4700000000000006, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <interfaceShape Id="3916c4f6-4f50-447b-b58c-932f66a5fab7" absoluteBounds="5.25, 0.5, 4.125, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="207, 223, 191">
+      <interfaceMoniker Id="1d1692df-be7a-4c19-8145-905cadf58798" LastKnownName="IScientificDataForm" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="3e2c3c89-47bb-4dfb-ae09-e20bd4db33b6" absoluteBounds="5.265, 0.89, 4.0950000000000006, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="f40d314d-82f0-476d-80a3-ebe770005361" absoluteBounds="5.265, 1.1011718675494193, 4.0950000000000006, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+    <realizationConnector edgePoints="[(3 : 2.625); (3 : 1.77734373509884); (7.3125 : 1.77734373509884); (7.3125 : 1.40234373509884)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" showAsLollipop="false">
+      <interfaceRealizationMoniker Id="3b5c4a33-eb89-4166-a92a-37b138855900" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="e338500b-ff9a-4fc1-b8e6-c2a2ca9a4dac" />
+        <interfaceShapeMoniker Id="3916c4f6-4f50-447b-b58c-932f66a5fab7" />
+      </nodes>
+    </realizationConnector>
+    <classShape Id="effd21f1-a408-4e0c-93bc-c390aff9f52b" absoluteBounds="6.125, 2.625, 4.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="809c44d5-2942-4af1-90eb-b3b4ff8465f9" LastKnownName="FormViewModel" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="e0e17468-11a1-42dd-a8cd-e69ace2bb419" absoluteBounds="6.14, 3.015, 4.4700000000000006, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="dfe617c9-24c4-478f-9969-2636836a57c5" absoluteBounds="6.14, 3.2261718675494193, 4.4700000000000006, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <generalizationConnector edgePoints="[(5.25 : 3.07617186754942); (6.125 : 3.07617186754942)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110">
+      <generalizationMoniker Id="3d31f1ce-3d31-4e87-931b-e517be908012" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="e338500b-ff9a-4fc1-b8e6-c2a2ca9a4dac" />
+        <classShapeMoniker Id="effd21f1-a408-4e0c-93bc-c390aff9f52b" />
+      </nodes>
+    </generalizationConnector>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

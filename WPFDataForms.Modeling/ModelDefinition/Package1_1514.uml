@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="85ab6c26-3743-4e6b-ad9a-1e0c472f5d5a"
   name="Output" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -10,7 +10,18 @@
         name="FFTextDisplayVM"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="0fdbfe84-4e5a-4ab0-8733-e4b800dbfae0"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21"
+              LastKnownName="FormFieldViewModel"
+              LastKnownLocation="Package1_1513.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -18,7 +29,18 @@
         name="FFPasswordDisplayVM"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="a01a0466-8606-4e7b-84ff-f497cb32e13e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21"
+              LastKnownName="FormFieldViewModel"
+              LastKnownLocation="Package1_1513.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -26,7 +48,18 @@
         name="FFIntegerDisplayVM"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="48d4331f-0f41-43b6-929d-842ae7b03600"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21"
+              LastKnownName="FormFieldViewModel"
+              LastKnownLocation="Package1_1513.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -34,7 +67,18 @@
         name="FFDecimalDisplayVM"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="6515ae28-ef50-4721-a293-a09452cb59e7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21"
+              LastKnownName="FormFieldViewModel"
+              LastKnownLocation="Package1_1513.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -42,7 +86,18 @@
         name="FFDateDisplayVM"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="06b6b785-ad4e-41d7-9118-9654a2624f98"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21"
+              LastKnownName="FormFieldViewModel"
+              LastKnownLocation="Package1_1513.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
 </package>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7621249f-e149-4646-8691-da38ac00b429" name="FFDateDisplayVM" linkedPackageId="15190e81-d79b-4a84-b3d8-caa0ead7bde3" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="ccf5ba9f-e553-4846-aa83-b51fe3e9efc8">
+      <profileInstance Id="c2bc6e0b-1fef-4177-b09a-8f34f0096b97" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ab58f75c-65b1-43c8-9af6-e7c78230df95">
+      <profileInstance Id="3143f820-cffb-4eb2-9a9b-b9a4ff5e88f6" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="73e22c1e-fc3c-4ada-b828-aab163c197a9" name="FFDateDisplayVM" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1a796ee1-0ab8-4e81-8c05-f57e78f869c0" />
+        <generalsInternal>
+          <generalization Id="cedfaaa3-d435-4456-837f-0c7ccfc0fd59" isSubstitutable="false">
+            <classMoniker Id="e1cc88fe-4714-4b9c-869f-059cf3cc1287" LastKnownName="FormFieldViewModel" />
+            <elementDefinition Id="06b6b785-ad4e-41d7-9118-9654a2624f98" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e1cc88fe-4714-4b9c-869f-059cf3cc1287" name="FormFieldViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="15190e81-d79b-4a84-b3d8-caa0ead7bde3" name="WPFDataForms.Modeling">
+    <elementDefinition Id="f202fbef-b6d0-47e2-baaa-520e27bfb6a8" />
+  </package>
+</logicalClassDesignerModel>

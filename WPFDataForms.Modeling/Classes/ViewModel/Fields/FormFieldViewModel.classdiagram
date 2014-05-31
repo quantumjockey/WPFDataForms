@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="57303692-ac5a-43e6-b8b6-71523b69d4c2" name="FormFieldViewModel" linkedPackageId="d9cc2732-4496-47c7-88e7-0cf761688767" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d43ee449-7af4-4e41-a98e-4951d4582d0e">
+      <profileInstance Id="75987978-9225-4824-98c8-5df9b3b14596" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="46ae390d-8aad-4bbe-b1c3-bc0dba1710cb">
+      <profileInstance Id="12f8b4a2-b29c-49dc-8ed1-f69f957ed5d8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="96879d1d-2a6a-4326-80c6-3cac379f1e98" name="FormFieldViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21" />
+        <suppliersInternal>
+          <interfaceRealization Id="5501b80c-6d51-424c-ad17-a7fb3ff8143e">
+            <interfaceMoniker Id="ddb211e8-9a77-4baa-9e22-79a791d57feb" LastKnownName="IFormField" />
+            <elementDefinition Id="6c5f089f-d2b0-486e-82fb-2e9e336758de" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="ddb211e8-9a77-4baa-9e22-79a791d57feb" name="IFormField" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5d4f3906-c9cd-48b0-835f-f25df7c9932a" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="d9cc2732-4496-47c7-88e7-0cf761688767" name="WPFDataForms.Modeling">
+    <elementDefinition Id="f202fbef-b6d0-47e2-baaa-520e27bfb6a8" />
+  </package>
+</logicalClassDesignerModel>

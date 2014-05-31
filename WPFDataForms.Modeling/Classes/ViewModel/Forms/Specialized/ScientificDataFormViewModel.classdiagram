@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7656f972-8de6-4e52-9594-2826f4786d67" name="ScientificDataFormViewModel" linkedPackageId="7fad79b4-fe1e-47a4-b908-d56f9f339657" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="ed0a4894-02bc-46fa-b80e-1a4c54cebd88">
+      <profileInstance Id="93d5145a-72fa-4189-a7ce-7472a795fb2b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="700aa8ef-5176-44c7-bea2-6364331ee70e">
+      <profileInstance Id="8a741f65-bb2e-42f9-866e-57f97685d050" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="000f8978-a8dc-457f-a0d2-6ce1c8bace6c" name="ScientificDataFormViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="514bc03f-a03f-4ed3-b8a0-88dd6649b1a4" />
+        <suppliersInternal>
+          <interfaceRealization Id="3b5c4a33-eb89-4166-a92a-37b138855900">
+            <interfaceMoniker Id="1d1692df-be7a-4c19-8145-905cadf58798" LastKnownName="IScientificDataForm" />
+            <elementDefinition Id="a70cca53-699a-4592-aae8-25a7d76d7d2c" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="3d31f1ce-3d31-4e87-931b-e517be908012" isSubstitutable="false">
+            <classMoniker Id="809c44d5-2942-4af1-90eb-b3b4ff8465f9" LastKnownName="FormViewModel" />
+            <elementDefinition Id="579e0d40-cff1-43c8-8910-6fe60e2ddbc9" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="1d1692df-be7a-4c19-8145-905cadf58798" name="IScientificDataForm" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="63a4ee5a-15fa-421e-9476-12a1de527d4f" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="809c44d5-2942-4af1-90eb-b3b4ff8465f9" name="FormViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f0025260-a4a0-4345-b8ab-97900440c3d1" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="7fad79b4-fe1e-47a4-b908-d56f9f339657" name="WPFDataForms.Modeling">
+    <elementDefinition Id="f202fbef-b6d0-47e2-baaa-520e27bfb6a8" />
+  </package>
+</logicalClassDesignerModel>

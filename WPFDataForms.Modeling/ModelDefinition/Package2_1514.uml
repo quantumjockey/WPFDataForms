@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="d362996d-57ba-4048-8abc-3c2a755383d2"
   name="Specialized" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -10,12 +10,32 @@
         name="FFScientificDataVM"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="9d550bc3-496c-442d-a6f5-1b6bead7b518">
+            <interfaceMoniker
+              Id="b0f35ade-2840-423f-80d5-1fd15c4e6322"
+              LastKnownName="IScientificDataFormField"
+              LastKnownLocation="Package2_1514.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="7056a3af-8dfc-43cc-9c52-d93cfca53b84"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d9cf8d64-eb8c-4b94-b492-90d0c5369a21"
+              LastKnownName="FormFieldViewModel"
+              LastKnownLocation="Package1_1513.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <Interface
         Id="b0f35ade-2840-423f-80d5-1fd15c4e6322"
-        name="IScientificDataForm"
+        name="IScientificDataFormField"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>

@@ -22,7 +22,112 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Folder Include="Classes\ViewModel" />
+    <Folder Include="Classes\ViewModel\Fields" />
+    <Folder Include="Classes\ViewModel\Fields\Input" />
+    <Folder Include="Classes\ViewModel\Fields\Specialized" />
+    <Folder Include="Classes\ViewModel\Fields\Output" />
+    <Folder Include="Classes\ViewModel\Forms" />
+    <Folder Include="Classes\ViewModel\Forms\Specialized" />
     <Folder Include="ModelDefinition\" />
+    <Content Include="Classes\ViewModel\Fields\FormFieldViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\FormFieldViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\FormFieldViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFDateEntryVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFDateEntryVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Input\FFDateEntryVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFDecimalEntryVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFDecimalEntryVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Input\FFDecimalEntryVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFIntegerEntryVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFIntegerEntryVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Input\FFIntegerEntryVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFPasswordEntryVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFPasswordEntryVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Input\FFPasswordEntryVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFTextEntryVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Input\FFTextEntryVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Input\FFTextEntryVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFDateDisplayVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFDateDisplayVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Output\FFDateDisplayVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFDecimalDisplayVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFDecimalDisplayVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Output\FFDecimalDisplayVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFIntegerDisplayVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFIntegerDisplayVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Output\FFIntegerDisplayVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFPasswordDisplayVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFPasswordDisplayVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Output\FFPasswordDisplayVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFTextDisplayVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Output\FFTextDisplayVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Output\FFTextDisplayVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Specialized\FFScientificDataVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Fields\Specialized\FFScientificDataVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Fields\Specialized\FFScientificDataVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Forms\FormViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Forms\FormViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Forms\FormViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Classes\ViewModel\Forms\Specialized\ScientificDataFormViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classes\ViewModel\Forms\Specialized\ScientificDataFormViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classes\ViewModel\Forms\Specialized\ScientificDataFormViewModel.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1513.uml">
       <SubType>Content</SubType>
     </Content>
@@ -47,5 +152,6 @@
     <Content Include="ModelDefinition\WPFDataForms.Modeling.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="Classes" />
   </ItemGroup>
 </Project>
