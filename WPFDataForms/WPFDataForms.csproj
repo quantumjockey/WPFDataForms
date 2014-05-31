@@ -47,7 +47,7 @@
     <Compile Include="ViewModel\Fields\Input\FFDecimalEntryVM.cs" />
     <Compile Include="ViewModel\Fields\Input\FFIntegerEntryVM.cs" />
     <Compile Include="ViewModel\Fields\Input\FFPasswordEntryVM.cs" />
-    <Compile Include="ViewModel\Fields\Input\FFTextEntryVm.cs" />
+    <Compile Include="ViewModel\Fields\Input\FFTextEntryVM.cs" />
     <Compile Include="ViewModel\Fields\Specialized\IScientificDataFormField.cs" />
     <Compile Include="ViewModel\Fields\Output\FFDateDisplayVM.cs" />
     <Compile Include="ViewModel\Fields\Output\FFDecimalDisplayVM.cs" />
