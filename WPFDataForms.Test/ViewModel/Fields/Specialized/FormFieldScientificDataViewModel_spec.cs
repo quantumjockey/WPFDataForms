@@ -3,7 +3,7 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using WPFDataForms.ViewModel.Fields.Interchangeable;
+using WPFDataForms.ViewModel.Fields.Specialized;
 
 #endregion
 ///////////////////////////////////////

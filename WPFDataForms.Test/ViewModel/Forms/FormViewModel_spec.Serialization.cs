@@ -3,6 +3,7 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using WPFDataForms.ViewModel.Forms;
 
 #endregion
 ///////////////////////////////////////

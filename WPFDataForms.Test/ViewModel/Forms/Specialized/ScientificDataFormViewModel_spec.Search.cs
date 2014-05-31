@@ -4,9 +4,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using WPFDataForms.ViewModel;
-using WPFDataForms.ViewModel.Fields.Interchangeable;
-using WPFDataForms.ViewModel.Forms;
+using WPFDataForms.ViewModel.Fields.Specialized;
+using WPFDataForms.ViewModel.Forms.Specialized;
 
 #endregion
 ///////////////////////////////////////
@@ -84,7 +83,7 @@ namespace WPFDataForms.Test.ViewModel.Forms.Specialized
             ScientificDataFormViewModel form = new ScientificDataFormViewModel();
             form.AddField(new TestFormField());
             form.AddField(new TestFormField());
-            dummy = form.GetFieldValuesByType(typeof(FormViewModel));
+            dummy = form.GetFieldValuesByType(typeof(string));
             Assert.AreEqual(0, dummy.Count);
         }
 

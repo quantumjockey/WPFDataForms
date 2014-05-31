@@ -4,7 +4,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using WPFDataForms.ViewModel;
+using WPFDataForms.ViewModel.Fields;
+using WPFDataForms.ViewModel.Forms;
 
 #endregion
 ///////////////////////////////////////
