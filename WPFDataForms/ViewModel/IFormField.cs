@@ -12,7 +12,7 @@ namespace WPFDataForms.ViewModel
     /// <summary>
     /// Template for implementing a MVVM form field object base within a WPF back-end.
     /// </summary>
-    public interface IFormField
+    public interface IFormField : INotifyPropertyChanged
     {
         // Property Signatures
         object Content { get; set; }
@@ -24,8 +24,5 @@ namespace WPFDataForms.ViewModel
 
         // Method Signatures
         void Reset();
-
-        // Event Signatures
-        event PropertyChangedEventHandler PropertyChanged;
     }
 }
