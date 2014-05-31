@@ -7,7 +7,7 @@ using System.ComponentModel;
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel
+namespace WPFDataForms.ViewModel.Fields
 {
     /// <summary>
     /// Template for implementing a MVVM form field object base within a WPF back-end.

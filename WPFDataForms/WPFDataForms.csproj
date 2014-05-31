@@ -48,22 +48,22 @@
     <Compile Include="ViewModel\Fields\Input\FFIntegerEntryVM.cs" />
     <Compile Include="ViewModel\Fields\Input\FFPasswordEntryVM.cs" />
     <Compile Include="ViewModel\Fields\Input\FFTextEntryVm.cs" />
-    <Compile Include="ViewModel\Fields\Interchangeable\IScientificDataFormField.cs" />
+    <Compile Include="ViewModel\Fields\Specialized\IScientificDataFormField.cs" />
     <Compile Include="ViewModel\Fields\Output\FFDateDisplayVM.cs" />
     <Compile Include="ViewModel\Fields\Output\FFDecimalDisplayVM.cs" />
     <Compile Include="ViewModel\Fields\Output\FFIntegerDisplayVM.cs" />
     <Compile Include="ViewModel\Fields\Output\FFPasswordDisplayVM.cs" />
     <Compile Include="ViewModel\Fields\Output\FFTextDisplayVM.cs" />
-    <Compile Include="ViewModel\FormFieldViewModel.cs" />
-    <Compile Include="ViewModel\Forms\IScientificDataForm.cs" />
-    <Compile Include="ViewModel\Forms\ScientificDataFormViewModel.cs" />
-    <Compile Include="ViewModel\Forms\ScientificDataFormViewModel.Search.cs" />
-    <Compile Include="ViewModel\FormViewModel.cs" />
-    <Compile Include="ViewModel\FormViewModel.Search.cs" />
-    <Compile Include="ViewModel\FormViewModel.Serialization.cs" />
-    <Compile Include="ViewModel\IForm.cs" />
-    <Compile Include="ViewModel\IFormField.cs" />
-    <Compile Include="ViewModel\Fields\Interchangeable\FFScientificDataVM.cs" />
+    <Compile Include="ViewModel\Fields\FormFieldViewModel.cs" />
+    <Compile Include="ViewModel\Forms\Specialized\IScientificDataForm.cs" />
+    <Compile Include="ViewModel\Forms\Specialized\ScientificDataFormViewModel.cs" />
+    <Compile Include="ViewModel\Forms\Specialized\ScientificDataFormViewModel.Search.cs" />
+    <Compile Include="ViewModel\Forms\FormViewModel.cs" />
+    <Compile Include="ViewModel\Forms\FormViewModel.Search.cs" />
+    <Compile Include="ViewModel\Forms\FormViewModel.Serialization.cs" />
+    <Compile Include="ViewModel\Forms\IForm.cs" />
+    <Compile Include="ViewModel\Fields\IFormField.cs" />
+    <Compile Include="ViewModel\Fields\Specialized\FFScientificDataVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\WpfHelper\WpfHelper\WpfHelper.csproj">

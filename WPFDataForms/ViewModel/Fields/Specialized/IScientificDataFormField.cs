@@ -1,12 +1,13 @@
 ﻿///////////////////////////////////////
 #region Namespace Directives
 
-using System;
+// none
 
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel.Fields.Interchangeable
+namespace WPFDataForms.ViewModel.Fields.Specialized
+
 {
     /// <summary>
     /// Template for implementing a MVVM form field object within a WPF back-end that facilitates the display and 

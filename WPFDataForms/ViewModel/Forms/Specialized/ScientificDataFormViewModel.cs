@@ -1,14 +1,12 @@
 ﻿///////////////////////////////////////
 #region Namespace Directives
 
-using System;
-using System.Collections.ObjectModel;
-using WPFDataForms.ViewModel.Fields.Interchangeable;
+// none
 
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel.Forms
+namespace WPFDataForms.ViewModel.Forms.Specialized
 {
     public partial class ScientificDataFormViewModel : FormViewModel
     {

@@ -6,7 +6,7 @@ using System;
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel.Fields.Interchangeable
+namespace WPFDataForms.ViewModel.Fields.Specialized
 {
     /// <summary>
     /// Creates a form field object that can be used to store, validate, manipulate, and display scientific data.

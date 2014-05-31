@@ -9,7 +9,7 @@ using WPFDataForms.ViewModel;
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.Test.ViewModel
+namespace WPFDataForms.Test.ViewModel.Forms
 {
     /// <remarks>
     /// When separating large test classes into partials, you only need to specify the [Test Class] attribute 

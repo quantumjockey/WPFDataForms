@@ -2,13 +2,12 @@
 #region Namespace Directives
 
 using System;
-using System.ComponentModel;
 using WpfHelper.ViewModel;
 
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel
+namespace WPFDataForms.ViewModel.Fields
 {
     /// <summary>
     /// Creates a base form field class that can be used to store, display, and validate user input data.

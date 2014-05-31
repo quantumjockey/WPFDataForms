@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.Test.ViewModel.Forms
+namespace WPFDataForms.Test.ViewModel.Forms.Specialized
 {
     /// <remarks>
     /// When separating large test classes into partials, you only need to specify the [Test Class] attribute 

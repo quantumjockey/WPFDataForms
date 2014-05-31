@@ -4,11 +4,12 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using WPFDataForms.ViewModel.Fields;
 
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel
+namespace WPFDataForms.ViewModel.Forms
 {
     /// <summary>
     /// Template for implementing a MVVM form object within a WPF back-end.

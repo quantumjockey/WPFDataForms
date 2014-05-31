@@ -8,7 +8,7 @@ using WPFDataForms.ViewModel;
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.Test.ViewModel
+namespace WPFDataForms.Test.ViewModel.Forms
 {
     [TestClass]
     public partial class FormViewModel_spec

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel.Forms
+namespace WPFDataForms.ViewModel.Forms.Specialized
 {
     /// <summary>
     /// Template for implementing a MVVM form object within a WPF back-end that facilitates the display and 

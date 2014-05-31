@@ -3,12 +3,13 @@
 
 using System;
 using System.Collections.Generic;
+using WPFDataForms.ViewModel.Fields;
 using WpfHelper.ViewModel;
 
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel
+namespace WPFDataForms.ViewModel.Forms
 {
     public partial class FormViewModel : ViewModelBase, IForm
     {

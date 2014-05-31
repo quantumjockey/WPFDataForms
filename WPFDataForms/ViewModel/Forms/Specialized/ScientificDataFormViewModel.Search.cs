@@ -3,12 +3,13 @@
 
 using System;
 using System.Collections.Generic;
-using WPFDataForms.ViewModel.Fields.Interchangeable;
+using WPFDataForms.ViewModel.Fields;
+using WPFDataForms.ViewModel.Fields.Specialized;
 
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.ViewModel.Forms
+namespace WPFDataForms.ViewModel.Forms.Specialized
 {
     public partial class ScientificDataFormViewModel : FormViewModel
     {

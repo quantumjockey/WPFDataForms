@@ -8,7 +8,7 @@ using WPFDataForms.ViewModel.Fields.Interchangeable;
 #endregion
 ///////////////////////////////////////
 
-namespace WPFDataForms.Test.ViewModel.Interchangeable
+namespace WPFDataForms.Test.ViewModel.Specialized
 {
     [TestClass]
     public class FormFieldScientificDataViewModelTest
