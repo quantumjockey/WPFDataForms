@@ -69,7 +69,7 @@ namespace WPFDataForms.Test.ViewModel.Interchangeable
         ////////////////////////////////////////
         #region Child Classes (Used in Testing)
 
-        class TestFormField : FormFieldScientificDataViewModel
+        class TestFormField : FFScientificDataVM
         {
             // empty constructor so class inherits values from base constructor
             public TestFormField() : base() { }

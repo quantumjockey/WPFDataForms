@@ -18,7 +18,7 @@ namespace WPFDataForms.ViewModel.Fields.Interchangeable
     /// are required by the user, such as in a mechanical simulation, calculations can be done internally using Systeme 
     /// International (metric) units and converted to English units by changing the value of the _scaleFactor field.
     /// </remarks>
-    public class FormFieldScientificDataViewModel : FormFieldViewModel, IScientificDataFormField
+    public class FFScientificDataVM : FormFieldViewModel, IScientificDataFormField
     {
         ////////////////////////////////////////
         #region Generic Fields
@@ -100,12 +100,12 @@ namespace WPFDataForms.ViewModel.Fields.Interchangeable
         /// <summary>
         /// A blank form field object with default initializers.
         /// </summary>
-        public FormFieldScientificDataViewModel() : this(false, null, null, null) { }
+        public FFScientificDataVM() : this(false, null, null, null) { }
 
         /// <summary>
         /// A blank form field object.
         /// </summary>
-        public FormFieldScientificDataViewModel(bool isDisplayField, string id, string label, string toolTip) : this(1.0, isDisplayField, null, id, label, toolTip) { }
+        public FFScientificDataVM(bool isDisplayField, string id, string label, string toolTip) : this(1.0, isDisplayField, null, id, label, toolTip) { }
 
         /// <summary>
         /// A form field object with all initializers.
@@ -116,7 +116,7 @@ namespace WPFDataForms.ViewModel.Fields.Interchangeable
         /// <param name="id"></param>
         /// <param name="label"></param>
         /// <param name="toolTip"></param>
-        public FormFieldScientificDataViewModel(double scaleFactor, bool isDisplayField, Predicate<object> expression, string id, string label, string toolTip)
+        public FFScientificDataVM(double scaleFactor, bool isDisplayField, Predicate<object> expression, string id, string label, string toolTip)
         {
             // initialize field state
             _isDisplayField = isDisplayField;
