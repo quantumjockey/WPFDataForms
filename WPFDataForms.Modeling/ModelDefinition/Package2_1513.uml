@@ -15,7 +15,144 @@
         Id="4f6abb3f-916f-40f8-b21c-446e3a6e98d9"
         name="IForm"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <ownedAttributes>
+          <property
+            Id="34780081-3014-4cde-8020-514b9a6ba0b6"
+            name="Fields"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a5eca45c-1e0d-4135-bee3-3a0b902778f9"
+            name="IsComplete"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="3c73ffb6-4f1f-4bb6-8b47-0557d4e9963d"
+            name="AddField"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="fa4b8c39-c64f-409c-8afd-2f7d80c85bdd"
+            name="CheckIfFieldExists"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3c2d6439-409a-4088-ae20-9a7ab18aeda4"
+            name="ClearFields"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="39a51591-22e3-4ac7-a9cb-ca5b520f5743"
+            name="GetFieldContentByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="1455da78-8c96-4e1a-a45e-f8d24023ad01"
+            name="GetFieldContentByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d3fa3824-f213-466a-a7bc-9ea5192a4615"
+            name="GetFieldIndexByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d246a643-aeb5-45a6-824a-d08136dc4582"
+            name="GetFieldIndicesByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="4c01f811-5485-4c53-912e-4bde85119d9e"
+            name="GetFieldObjectByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="c6ea8a5c-278d-465f-ab4c-dca4d94d2c58"
+            name="GetFieldObjectsByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3267a141-321f-407c-98c0-b681dee5c6e1"
+            name="ListFieldIDs"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="ffbce19b-1b21-4111-9444-cc202aabe172"
+            name="RemoveField"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3eb34d95-5d91-4441-9ded-6895ea48e6db"
+            name="RemoveFieldByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="1908209b-cf38-4507-8379-4ababba830fc"
+            name="RemoveFieldByIndex"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="5f652e0b-c902-47f9-8dfa-a84565dfaab8"
+            name="ResetFields"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -33,6 +170,120 @@
               LastKnownLocation="Package2_1513.uml" />
           </interfaceRealization>
         </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e34de780-11b0-49d9-9c0a-5bb8b81fcf69"
+            name="AddField"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a69d90ac-fc2d-4010-8a5b-576d28e7645c"
+            name="CheckIfFieldExists"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="172df7d3-6d58-4812-95a3-eacbcbae8504"
+            name="ClearFields"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="291c1fb7-382a-492b-bfcd-dff7419ed5f9"
+            name="GetFieldContentByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="36911d3d-15cc-4d02-8033-11674c137173"
+            name="GetFieldContentByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6d87ecae-d79c-43eb-bfce-d802136b0643"
+            name="GetFieldIndexByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="fc9fc38c-6210-487c-92ec-3f0e0e88ea8a"
+            name="GetFieldIndicesByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="594eddb1-ed9b-4183-95f7-5b3eb24d91af"
+            name="GetFieldObjectByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="c5032918-42f2-40da-b52d-8bf2c2e31ad3"
+            name="GetFieldObjectsByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="8374b7ec-0ccb-4e50-9c58-5ec38228aa1e"
+            name="ListFieldIDs"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="22598233-1649-4670-8123-f6361340a05b"
+            name="RemoveField"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="ac0e6859-474d-4a12-bd34-9b039ecfd4b4"
+            name="RemoveFieldByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7d088dbd-3796-4f86-a287-cea71f450930"
+            name="RemoveFieldByIndex"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b7667887-d73e-4e5e-ad88-75815c484847"
+            name="ResetFields"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>

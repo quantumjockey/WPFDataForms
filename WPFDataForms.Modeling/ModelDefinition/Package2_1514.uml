@@ -37,7 +37,40 @@
         Id="b0f35ade-2840-423f-80d5-1fd15c4e6322"
         name="IScientificDataFormField"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <ownedAttributes>
+          <property
+            Id="a3ca43a1-8bee-4b6b-b2c5-73f290f52abd"
+            name="Content"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="6e185b5f-5f06-4e8c-8b8a-ca5384bd9d1e"
+            name="IsDisplayField"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0a92f505-6a97-4ce3-a1af-bc2c38e5d43d"
+            name="Value"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributes>
+      </Interface>
     </packageHasNamedElement>
   </packagedElements>
 </package>

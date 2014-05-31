@@ -9,11 +9,11 @@
         <OperationElementListCompartment Id="f2972935-df9b-402e-88e0-843921c18aee" absoluteBounds="1.2649999999999997, 2.8511718675494193, 3.9699999999999998, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="6129799c-dec8-4550-91b7-f4fd7c6214db" absoluteBounds="6.25, 2.25, 4.125, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="6129799c-dec8-4550-91b7-f4fd7c6214db" absoluteBounds="6.25, 2.25, 4.125, 1.0624999801317849" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
       <classMoniker Id="68855605-5dcf-4e94-bfad-3520c37d1b99" LastKnownName="FormFieldViewModel" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="9fe7384d-97c9-4d23-87ce-a90b1a390f5f" absoluteBounds="6.265, 2.6400000000000006, 4.0950000000000006, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="4bb24281-d53f-4ecd-84ce-65b6f1bd32f8" absoluteBounds="6.265, 2.8511718675494198, 4.0950000000000006, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="9fe7384d-97c9-4d23-87ce-a90b1a390f5f" isExpanded="false" absoluteBounds="6.265, 2.64, 4.0950000000000006, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="4bb24281-d53f-4ecd-84ce-65b6f1bd32f8" absoluteBounds="6.265, 2.8511718675494193, 4.0950000000000006, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <generalizationConnector edgePoints="[(5.25 : 2.70117186754942); (6.25 : 2.70117186754942)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110">

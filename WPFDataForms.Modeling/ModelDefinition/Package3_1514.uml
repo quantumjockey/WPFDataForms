@@ -9,7 +9,26 @@
         Id="63a4ee5a-15fa-421e-9476-12a1de527d4f"
         name="IScientificDataForm"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="03b70c77-f5c8-4b79-bb65-aa2bcede275b"
+            name="GetFieldValueByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="13e25ef4-4b8f-465a-b515-dfc4f2ac287a"
+            name="GetFieldValuesByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -37,6 +56,24 @@
               LastKnownLocation="Package2_1513.uml" />
           </generalization>
         </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="78d237a0-2553-46a0-a7b5-8d0028c6d920"
+            name="GetFieldValueByID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0df934b7-7447-4f80-a1c2-c94eeb60612c"
+            name="GetFieldValuesByType"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>
