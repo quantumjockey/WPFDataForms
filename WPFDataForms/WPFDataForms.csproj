@@ -43,8 +43,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\Fields\Input\FFDateEntryVM.cs" />
+    <Compile Include="ViewModel\Fields\Input\FFDecimalEntryVM.cs" />
+    <Compile Include="ViewModel\Fields\Input\FFIntegerEntryVM.cs" />
+    <Compile Include="ViewModel\Fields\Input\FFPasswordEntryVM.cs" />
     <Compile Include="ViewModel\Fields\Input\FFTextEntryVm.cs" />
     <Compile Include="ViewModel\Fields\Interchangeable\IScientificDataFormField.cs" />
+    <Compile Include="ViewModel\Fields\Output\FFDateDisplayVM.cs" />
+    <Compile Include="ViewModel\Fields\Output\FFDecimalDisplayVM.cs" />
+    <Compile Include="ViewModel\Fields\Output\FFIntegerDisplayVM.cs" />
+    <Compile Include="ViewModel\Fields\Output\FFPasswordDisplayVM.cs" />
+    <Compile Include="ViewModel\Fields\Output\FFTextDisplayVM.cs" />
     <Compile Include="ViewModel\FormFieldViewModel.cs" />
     <Compile Include="ViewModel\Forms\IScientificDataForm.cs" />
     <Compile Include="ViewModel\Forms\ScientificDataFormViewModel.cs" />
@@ -62,9 +71,7 @@
       <Name>WpfHelper</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\Fields\Output\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
