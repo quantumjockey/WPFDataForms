@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataForms", "WPFDataForm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHelper", "..\WpfHelper\WpfHelper\WpfHelper.csproj", "{473A9DEF-8948-42A0-B127-AAB5BCBC5790}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "WPFDataForms.Modeling", "WPFDataForms.Modeling\WPFDataForms.Modeling.modelproj", "{91ECFF8E-6A60-4B06-8DF5-D5862FC6EAD5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataForms.Test", "WPFDataForms.Test\WPFDataForms.Test.csproj", "{BFA3E597-865B-4976-A965-41A795FDF448}"
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{473A9DEF-8948-42A0-B127-AAB5BCBC5790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473A9DEF-8948-42A0-B127-AAB5BCBC5790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473A9DEF-8948-42A0-B127-AAB5BCBC5790}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91ECFF8E-6A60-4B06-8DF5-D5862FC6EAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91ECFF8E-6A60-4B06-8DF5-D5862FC6EAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91ECFF8E-6A60-4B06-8DF5-D5862FC6EAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91ECFF8E-6A60-4B06-8DF5-D5862FC6EAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BFA3E597-865B-4976-A965-41A795FDF448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BFA3E597-865B-4976-A965-41A795FDF448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA3E597-865B-4976-A965-41A795FDF448}.Release|Any CPU.ActiveCfg = Release|Any CPU

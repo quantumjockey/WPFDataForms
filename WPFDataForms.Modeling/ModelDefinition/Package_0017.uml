@@ -2,7 +2,7 @@
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams"
   dslVersion="1.0.0.0"
   Id="3ed253ee-06b7-4ed7-9073-e18d424fa965"
-  name="Interchangeable" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  name="Specialized" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <packagedElements>
     <packageHasNamedElement>
       <Interface
@@ -67,7 +67,7 @@
             <classMoniker
               Id="77710b6a-314d-4b2c-abc3-6c85f86f5cbc"
               LastKnownName="FormFieldViewModel"
-              LastKnownLocation="Package_1713.uml" />
+              LastKnownLocation="Package1_0016.uml" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
