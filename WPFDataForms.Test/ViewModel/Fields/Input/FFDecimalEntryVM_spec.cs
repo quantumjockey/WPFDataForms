@@ -6,9 +6,6 @@ namespace WPFDataForms.Test.ViewModel.Fields.Input
     [TestClass]
     public class FFDecimalEntryVM_spec
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
+
     }
 }

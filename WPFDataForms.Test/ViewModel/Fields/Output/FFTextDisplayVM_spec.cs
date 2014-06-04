@@ -6,9 +6,6 @@ namespace WPFDataForms.Test.ViewModel.Fields.Output
     [TestClass]
     public class FFTextDisplayVM_spec
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
+
     }
 }
