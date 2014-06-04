@@ -171,10 +171,6 @@ namespace WPFDataForms.ViewModel.Fields
         ////////////////////////////////////////
         #region Private Methods
 
-        /// <summary>
-        /// Evaluates the validity of input based on the expression associated with this data field.
-        /// </summary>
-        /// <param name="input"></param>
         protected void EvaluateInput(object input)
         {
             IsValid = Expression(input) ? true : false;

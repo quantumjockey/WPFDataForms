@@ -36,9 +36,7 @@ namespace WPFDataForms.ViewModel.Forms
                 foreach (PropertyInfo property in properties) // enumerate through properties to assign form field contents
                 {
                     if (property.CanWrite && CheckIfFieldExists(property.Name)) // if property exists & is not read-only
-                    {
                         GetFieldObjectByID(property.Name).Content = property.GetValue(_object, null);
-                    }
                 }
 
                 success = true;
