@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="WPFDataForms.View.Forms.StackedForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vwi="clr-namespace:WPFDataForms.View.Fields.Input"
+             xmlns:vmi="clr-namespace:WPFDataForms.ViewModel.Fields.Input"
+             xmlns:vwo="clr-namespace:WPFDataForms.View.Fields.Output"
+             xmlns:vmo="clr-namespace:WPFDataForms.ViewModel.Fields.Output"
+             xmlns:vws="clr-namespace:WPFDataForms.View.Fields.Specialized"
+             xmlns:vms="clr-namespace:WPFDataForms.ViewModel.Fields.Specialized">
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type vmi:FFDateEntryVM}">
+            <vwi:FFDateEntry/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmi:FFDecimalEntryVM}">
+            <vwi:FFDecimalEntry/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmi:FFIntegerEntryVM}">
+            <vwi:FFIntegerEntry/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmi:FFPasswordEntryVM}">
+            <vwi:FFPasswordEntry/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmi:FFTextEntryVM}">
+            <vwi:FFTextEntry/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmo:FFDateDisplayVM}">
+            <vwo:FFDateDisplay/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmo:FFDecimalDisplayVM}">
+            <vwo:FFDecimalDisplay/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmo:FFIntegerDisplayVM}">
+            <vwo:FFIntegerDisplay/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmo:FFPasswordDisplayVM}">
+            <vwo:FFPasswordDisplay/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vmo:FFTextDisplayVM}">
+            <vwo:FFTextDisplay/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:FFScientificDataVM}">
+            <vws:FFScientificData/>
+        </DataTemplate>
+    </UserControl.Resources>
+    <ItemsControl ItemsSource="{Binding Path=Fields, UpdateSourceTrigger=PropertyChanged}">
+        <ItemsControl.ItemContainerStyle>
+            <Style TargetType="ContentPresenter">
+                <Setter Property="ContentTemplate">
+                    <Setter.Value>
+                        <DataTemplate>
+                            <ContentPresenter Content="{Binding}" HorizontalAlignment="Right" Margin="5"/>
+                        </DataTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ItemsControl.ItemContainerStyle>
+        <ItemsControl.ItemsPanel>
+            <ItemsPanelTemplate>
+                <StackPanel/>
+            </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+    </ItemsControl>
+</UserControl>

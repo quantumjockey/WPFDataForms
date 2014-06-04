@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WPFDataForms.View.Fields.Output.FFTextDisplay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel 
+        Orientation="Horizontal" 
+        ToolTip="{Binding Path=ToolTip, UpdateSourceTrigger=PropertyChanged}">
+        <Label 
+            Content="{Binding Path=Label, UpdateSourceTrigger=PropertyChanged}" 
+            FontWeight="Bold" 
+            HorizontalContentAlignment="Right"/>
+        <Border
+            BorderBrush="Transparent"
+            BorderThickness="3">
+            <Label 
+                HorizontalContentAlignment="Center" 
+                Content="{Binding Path=Content, UpdateSourceTrigger=PropertyChanged}" 
+                VerticalContentAlignment="Center" 
+                Width="{Binding Path=FieldWidth}"/>
+        </Border>
+    </StackPanel>
+</UserControl>

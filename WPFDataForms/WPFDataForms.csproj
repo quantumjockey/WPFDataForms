@@ -37,6 +37,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,6 +68,48 @@
     <Compile Include="ViewModel\Forms\IForm.cs" />
     <Compile Include="ViewModel\Fields\IFormField.cs" />
     <Compile Include="ViewModel\Fields\Specialized\FFScientificDataVM.cs" />
+    <Compile Include="View\Fields\Input\FFDateEntry.xaml.cs">
+      <DependentUpon>FFDateEntry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Input\FFDecimalEntry.xaml.cs">
+      <DependentUpon>FFDecimalEntry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Input\FFIntegerEntry.xaml.cs">
+      <DependentUpon>FFIntegerEntry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Input\FFPasswordEntry.xaml.cs">
+      <DependentUpon>FFPasswordEntry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Input\FFTextEntry.xaml.cs">
+      <DependentUpon>FFTextEntry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Output\FFDateDisplay.xaml.cs">
+      <DependentUpon>FFDateDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Output\FFDecimalDisplay.xaml.cs">
+      <DependentUpon>FFDecimalDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Output\FFIntegerDisplay.xaml.cs">
+      <DependentUpon>FFIntegerDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Output\FFPasswordDisplay.xaml.cs">
+      <DependentUpon>FFPasswordDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Output\FFTextDisplay.xaml.cs">
+      <DependentUpon>FFTextDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fields\Specialized\FFScientificData.xaml.cs">
+      <DependentUpon>FFScientificData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FluidForm.xaml.cs">
+      <DependentUpon>FluidForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\JuxtaForm.xaml.cs">
+      <DependentUpon>JuxtaForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\StackedForm.xaml.cs">
+      <DependentUpon>StackedForm.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\WpfHelper\WpfHelper\WpfHelper.csproj">
@@ -75,6 +118,64 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Page Include="View\Fields\Input\FFDateEntry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Input\FFDecimalEntry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Input\FFIntegerEntry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Input\FFPasswordEntry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Input\FFTextEntry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Output\FFDateDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Output\FFDecimalDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Output\FFIntegerDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Output\FFPasswordDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Output\FFTextDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Fields\Specialized\FFScientificData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Forms\FluidForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Forms\JuxtaForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Forms\StackedForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
