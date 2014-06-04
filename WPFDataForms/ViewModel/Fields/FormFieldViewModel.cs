@@ -58,7 +58,7 @@ namespace WPFDataForms.ViewModel.Fields
         public Predicate<object> Expression
         {
             get;
-            private set;
+            protected set;
         }
 
         /// <summary>
